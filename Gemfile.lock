@@ -1,3 +1,8 @@
 GEM
   remote: https://rubygems.org/
-  spec
+  specs:
+    actioncable (5.0.1)
+      actionpack (= 5.0.1)
+      nio4r (~> 1.2)
+      websocket-driver (~> 0.6.1)
+    actio
