@@ -9,4 +9,9 @@ GEM
       actionpack (= 5.0.1)
       actionview (= 5.0.1)
       activejob (= 5.0.1)
-      mail (~
+      mail (~> 2.5, >= 2.5.4)
+      rails-dom-testing (~> 2.0)
+    actionpack (5.0.1)
+      actionview (= 5.0.1)
+      activesupport (= 5.0.1)
+      r
