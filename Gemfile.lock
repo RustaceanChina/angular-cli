@@ -55,4 +55,8 @@ GEM
       activesupport (>= 3.0)
       deep_merge (~> 1.1.1)
     debug_inspector (0.0.2)
-    deep_merg
+    deep_merge (1.1.1)
+    domain_name (0.5.24)
+      unf (>= 0.0.5, < 1.0.0)
+    equalizer (0.0.10)
+    erubis (2.7.0
