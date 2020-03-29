@@ -70,4 +70,8 @@ GEM
       tilt
     hashie (3.4.6)
     http (0.9.7)
-      addr
+      addressable (~> 2.3)
+      http-cookie (~> 1.0)
+      http-form_data (~> 1.0.1)
+      http_parser.rb (~> 0.6.0)
+   
