@@ -109,4 +109,10 @@ GEM
     naught (1.1.0)
     nio4r (1.2.1)
     nokogiri (1.7.0.1)
-      mini_por
+      mini_portile2 (~> 2.1.0)
+    oauth (0.5.1)
+    omniauth (1.3.2)
+      hashie (>= 1.2, < 4)
+      rack (>= 1.0, < 3)
+    omniauth-oauth (1.1.0)
+   
