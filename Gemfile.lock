@@ -195,4 +195,10 @@ GEM
       simple_oauth (~> 0.3.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    uglifie
+    uglifier (3.0.4)
+      execjs (>= 0.3.0, < 3)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.1)
+    web-console (3.4.0)
+      ac
