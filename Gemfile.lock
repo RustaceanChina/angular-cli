@@ -201,4 +201,8 @@ GEM
       unf_ext
     unf_ext (0.0.7.1)
     web-console (3.4.0)
-      ac
+      actionview (>= 5.0)
+      activemodel (>= 5.0)
+      debug_inspector
+      railties (>= 5.0)
+    websocket-driv
