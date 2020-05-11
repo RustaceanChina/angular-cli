@@ -220,3 +220,12 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  materialize-sass
+  omniauth
+  omniauth-twitter
+  pg
+  puma (~> 3.0)
+  rails (~> 5.0.1)
+  sassc-rails
+  spring
+  s
