@@ -212,3 +212,11 @@ GEM
 PLATFORMS
   ruby
 
+DEPENDENCIES
+  byebug
+  coffee-rails (~> 4.2)
+  config
+  haml
+  jbuilder (~> 2.5)
+  jquery-rails
+  listen (~> 3.0.5)
