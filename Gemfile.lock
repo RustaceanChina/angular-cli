@@ -228,4 +228,8 @@ DEPENDENCIES
   rails (~> 5.0.1)
   sassc-rails
   spring
-  s
+  spring-watcher-listen (~> 2.0.0)
+  turbolinks (~> 5)
+  twitter
+  tzinfo-data
+  uglifier (>= 1.3
