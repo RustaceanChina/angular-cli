@@ -16,4 +16,6 @@
 //= require materialize-sprockets
 //= require_tree .
 
-$(d
+$(document).on('ready turbolinks:load', function() {
+  Waves.displayEffect();
+});
