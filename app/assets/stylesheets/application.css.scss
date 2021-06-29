@@ -68,3 +68,104 @@ i {
 
   svg {
     overflow: visible;
+    transform: scale(3);
+  }
+}
+
+.loader {
+  #loader-front {
+    animation-name: spin;
+    animation-duration: 1.5s;
+    animation-play-state: running;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    animation-iteration-count: infinite;
+    transform-origin: center;
+  }
+
+  #loader-back {
+    animation-name: spin;
+    animation-direction: reverse;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: center;
+  }
+}
+
+@keyframes spin {
+ 0% {
+    transform: rotate3d(0,0,1,0deg);
+ }
+ 100% {
+    transform: rotate3d(0,0,1,360deg);
+ }
+}
+
+.litmus-logo {
+  svg {
+    transform: scale(2.5) rotate3d(0,0,1,90deg);
+  }
+
+  #large-radius {
+    animation-name: radiate;
+    animation-duration: 4s;
+    animation-play-state: running;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+  }
+
+  #small-radius {
+    animation-name: radiate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    transform-origin: center;
+  }
+}
+
+@keyframes radiate {
+ 0% {
+  opacity: 1;
+  transform: translateY(0);
+ }
+ 50% {
+  opacity: 0;
+  transform: translateY(-40px);
+ }
+ 51% {
+  opacity: 0;
+  transform: translateY(-40px) rotate3d(0,0,1,180deg);
+ }
+ 52% {
+  opacity: 1;
+ }
+ 100% {
+  opacity: 0;
+  transform: translateY(0) rotate3d(0,0,1,180deg);
+ }
+}
+
+// todo: animate
+.whisper-logo {
+  svg {
+    transform: scale(3.5);
+  }
+
+  #large-radius {
+    animation-name: radiate;
+    animation-duration: 4s;
+    animation-play-state: running;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+  }
+
+  #small-radius {
+    animation-name: radiate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    transform-origin: center;
+  }
+}
