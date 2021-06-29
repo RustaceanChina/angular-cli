@@ -1,0 +1,70 @@
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "materialize/components/color";
+
+$primary-color: color("light-blue", "darken-4") !default;
+$secondary-color: color("amber", "darken-2") !default;
+
+@import 'materialize';
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.categories-row a.btn {
+  margin: 10px;
+  width: 80%;
+}
+
+.btn-floating.halfway-fab {
+  &.left {
+    right: auto;
+    left: 24px;
+  }
+
+  position: absolute;
+  right: 24px;
+  bottom: 0;
+  transform: translateY(50%);
+}
+
+
+i {
+  vertical-align: bottom;
+}
+
+.brand-logo img {
+  margin-top: 10px;
+}
+
+.svg-wrapper {
+  align-items: center;
+  display: flex;
+  height: 200px;
+  flex-flow: row nowrap;
+  justify-content: center;
+  position: relative;
+
+  svg {
+    overflow: visible;
