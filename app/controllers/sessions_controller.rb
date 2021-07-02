@@ -10,4 +10,12 @@ class SessionsController < ApplicationController
   end
 
   def twitter_result
- 
+  end
+
+  protected
+
+  def auth_hash
+    request.env['omniauth.auth']
+  end
+
+end
