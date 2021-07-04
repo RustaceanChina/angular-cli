@@ -22,4 +22,9 @@ class TweetsController < ApplicationController
   end
 
   # POST /tweets
-  # POST /
+  # POST /tweets.json
+  def create
+    @tweet = Tweet.new(tweet_params)
+
+    respond_to do |format|
+      if @tweet.
