@@ -27,4 +27,6 @@ class TweetsController < ApplicationController
     @tweet = Tweet.new(tweet_params)
 
     respond_to do |format|
-      if @tweet.
+      if @tweet.save
+        format.html { redirect_to @tweet, notice: 'Tweet was successfully created.' }
+        format.json { render :sh
