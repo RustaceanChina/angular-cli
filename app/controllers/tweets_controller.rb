@@ -32,4 +32,10 @@ class TweetsController < ApplicationController
         format.json { render :show, status: :created, location: @tweet }
       else
         format.html { render :new }
-        format.json { render 
+        format.json { render json: @tweet.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
+  # PATCH/PUT /tweets/1
+  # PATCH/PUT 
