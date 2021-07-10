@@ -38,4 +38,8 @@ class TweetsController < ApplicationController
   end
 
   # PATCH/PUT /tweets/1
-  # PATCH/PUT 
+  # PATCH/PUT /tweets/1.json
+  def update
+    respond_to do |format|
+      if @tweet.update(tweet_params)
+        format.html { redirect_to @tw
