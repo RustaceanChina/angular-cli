@@ -52,4 +52,8 @@ class TweetsController < ApplicationController
   end
 
   # DELETE /tweets/1
-  # DELETE /tweets/1.js
+  # DELETE /tweets/1.json
+  def destroy
+    @tweet.destroy
+    respond_to do |format|
+      format.html { redirect_to tweets_url, notice
