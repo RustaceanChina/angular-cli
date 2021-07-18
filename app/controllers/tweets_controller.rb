@@ -46,4 +46,10 @@ class TweetsController < ApplicationController
         format.json { render :show, status: :ok, location: @tweet }
       else
         format.html { render :edit }
-        format.json { render json: @twee
+        format.json { render json: @tweet.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
+  # DELETE /tweets/1
+  # DELETE /tweets/1.js
