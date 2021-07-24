@@ -7,4 +7,9 @@ class WhisperController < ApplicationController
   def index
   end
 
-  
+  def get_tweet
+    if Tweet.for_whisper?
+      @tweet = Tweet.for_whisper
+    else
+      add_more_tweets
+      @
