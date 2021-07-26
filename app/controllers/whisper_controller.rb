@@ -12,4 +12,11 @@ class WhisperController < ApplicationController
       @tweet = Tweet.for_whisper
     else
       add_more_tweets
-      @
+      @tweet = Tweet.for_whisper
+    end
+
+    redirect_to whisper_tweet_path(id: @tweet.id)
+  end
+
+  def na
+    @t
