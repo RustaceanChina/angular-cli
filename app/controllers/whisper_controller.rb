@@ -24,4 +24,10 @@ class WhisperController < ApplicationController
     redirect_to whisper_get_tweet_path
   end
 
-  de
+  def tweet
+    @tweet = Tweet.find(params[:id])
+    @categories = Category.all
+  end
+
+  def stop
+    tweet = Tweet
