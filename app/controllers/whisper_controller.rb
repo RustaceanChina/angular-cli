@@ -30,4 +30,9 @@ class WhisperController < ApplicationController
   end
 
   def stop
-    tweet = Tweet
+    tweet = Tweet.find(params[:id])
+    tweet.update!(in_use: false)
+    redirect_to dashboard_path
+  end
+
+  def categor
