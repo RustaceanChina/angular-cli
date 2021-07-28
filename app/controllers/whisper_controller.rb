@@ -19,4 +19,9 @@ class WhisperController < ApplicationController
   end
 
   def na
-    @t
+    @tweet = Tweet.find(params[:id])
+    @tweet.update!(ignored: true)
+    redirect_to whisper_get_tweet_path
+  end
+
+  de
