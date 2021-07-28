@@ -35,4 +35,7 @@ class WhisperController < ApplicationController
     redirect_to dashboard_path
   end
 
-  def categor
+  def category
+    @tweet = Tweet.find(params[:id])
+    @category = Category.find(params[:category])
+  end
