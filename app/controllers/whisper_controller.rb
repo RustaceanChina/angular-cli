@@ -49,4 +49,6 @@ class WhisperController < ApplicationController
   protected
 
   def add_more_tweets
-    Tweet.add_tweets_for_user(current_u
+    Tweet.add_tweets_for_user(current_user)
+  end
+end
