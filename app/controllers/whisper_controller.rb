@@ -41,4 +41,12 @@ class WhisperController < ApplicationController
   end
 
   def subcategory
-    Tweet.find(params[:id]).update!(category_slug: params[:subcategory
+    Tweet.find(params[:id]).update!(category_slug: params[:subcategory])
+
+    redirect_to whisper_get_tweet_path
+  end
+
+  protected
+
+  def add_more_tweets
+    Tweet.add_tweets_for_user(current_u
