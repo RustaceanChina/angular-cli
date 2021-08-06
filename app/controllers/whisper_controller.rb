@@ -39,3 +39,6 @@ class WhisperController < ApplicationController
     @tweet = Tweet.find(params[:id])
     @category = Category.find(params[:category])
   end
+
+  def subcategory
+    Tweet.find(params[:id]).update!(category_slug: params[:subcategory
