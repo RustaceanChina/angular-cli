@@ -4,4 +4,10 @@ class User < ApplicationRecord
     user.update(
       name: auth_hash.info.nickname,
       token: auth_hash.credentials.token,
-      secret: aut
+      secret: auth_hash.credentials.secret
+    )
+    user
+  end
+
+  def twitter
+    @client ||= Twi
