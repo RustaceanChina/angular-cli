@@ -1,2 +1,3 @@
 class User < ApplicationRecord
-  def self.find_or_create_from_auth_hash(a
+  def self.find_or_create_from_auth_hash(auth_hash)
+    user = where(provider: auth_hash.provider, uid: auth_hash.uid).first_o
