@@ -12,4 +12,6 @@ class User < ApplicationRecord
   def twitter
     @client ||= Twitter::REST::Client.new do |config|
       config.consumer_key        = Settings.twitter_api_key
-      con
+      config.consumer_secret     = Settings.twitter_api_secret
+      config.access_token        = token
+      config.access_token_secr
