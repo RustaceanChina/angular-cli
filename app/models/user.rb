@@ -10,4 +10,6 @@ class User < ApplicationRecord
   end
 
   def twitter
-    @client ||= Twi
+    @client ||= Twitter::REST::Client.new do |config|
+      config.consumer_key        = Settings.twitter_api_key
+      con
