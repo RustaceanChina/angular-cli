@@ -14,4 +14,7 @@ class User < ApplicationRecord
       config.consumer_key        = Settings.twitter_api_key
       config.consumer_secret     = Settings.twitter_api_secret
       config.access_token        = token
-      config.access_token_secr
+      config.access_token_secret = secret
+    end
+  end
+end
