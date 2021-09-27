@@ -1,2 +1,5 @@
 %header
-  %nav{class: "#{content_for? :tabnav ? 'nav-extend
+  %nav{class: "#{content_for? :tabnav ? 'nav-extended' : ''}"}
+    .nav-wrapper.row
+      .col.s12
+        %a.brand-logo{href: current_user ? '/dashboard' : 
