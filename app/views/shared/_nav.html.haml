@@ -6,3 +6,5 @@
           %img{src: image_path('ml-logo.svg'), height: 40}
         %ul.right
           - if current_user
+            %li{class: "#{request.fullpath.start_with?('/dashboard') ? "active" : ""}"}
+              %a{href: '/dash
