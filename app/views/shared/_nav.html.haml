@@ -13,4 +13,7 @@
           - else
             %li{class: "#{request.fullpath.start_with?('/projects') ? "active" : ""}"}
               %a{href: '/projects'} Projects
-            %li{class: "#{request.fullpath.start_
+            %li{class: "#{request.fullpath.start_with?('/about') ? "active" : ""}"}
+              %a{href: '/about'} About
+      - if content_for? :tabnav
+        
