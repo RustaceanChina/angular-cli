@@ -9,4 +9,8 @@
     </tr>
   </thead>
 
-  
+  <tbody>
+    <% @tweets.each do |tweet| %>
+      <tr>
+        <td><%= link_to 'Show', tweet %></td>
+        <td><%= link_
