@@ -2,4 +2,10 @@
   %br
   %br
   .section.center-align
-    %h4= @tweet.
+    %h4= @tweet.text
+  %br
+  .divider
+  %br
+  .section.center-align
+    %h5 #{@category.name} - Subcategories
+    .row.categories-row
