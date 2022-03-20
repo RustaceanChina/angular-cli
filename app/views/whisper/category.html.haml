@@ -9,3 +9,6 @@
   .section.center-align
     %h5 #{@category.name} - Subcategories
     .row.categories-row
+      - @category.subcategories.each do |subcat|
+        .col.s4
+          %a.btn.btn-small.waves-effect{href
