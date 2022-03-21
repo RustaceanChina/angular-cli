@@ -11,4 +11,4 @@
     .row.categories-row
       - @category.subcategories.each do |subcat|
         .col.s4
-          %a.btn.btn-small.waves-effect{href
+          %a.btn.btn-small.waves-effect{href: "/whisper/tweets/#{@tweet.id}/#{@category.slug}/#{subcat.slug}"}= subcat.name
