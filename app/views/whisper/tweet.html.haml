@@ -11,4 +11,6 @@
     .row.categories-row
       - @categories.each do |category|
         .col.s4
-          %a.btn.btn-small.waves-effect{href: "/whisper/tweets/#{@tweet.id}/#{category.slug}",class: c
+          %a.btn.btn-small.waves-effect{href: "/whisper/tweets/#{@tweet.id}/#{category.slug}",class: category.color}= category.name
+      .col.s4
+        %a.btn.btn-small.grey.waves-effect{href: "/whisper/tweets/#{@tweet.id
