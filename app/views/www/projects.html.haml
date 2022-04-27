@@ -2,3 +2,48 @@
 .container
   %br
   %br
+  .section.center-align
+    = render 'shared/loader'
+    %h3 What would you like to help with?
+    %p Choose a project to work on below.
+  .section
+    .row
+      .col.s4
+        .card
+          .card-image
+            %img{src: image_path('project-litmus.jpg')}
+            %a.btn-floating.halfway-fab.green.darken-2.waves-effect.disabled{href: '/projects/litmus'}
+              %i.material-icons arrow_forward
+          .card-content
+            %span.card-title Project Litmus (InDev)
+            %p Project Litmus seeks to predict the overall attitude and disposition of someone based on a sample of the content they write.
+            %br
+            %p
+              %b Task:
+              Determine whether a piece of content has a positive, neutral, or negative tone.
+      .col.s4
+        .card
+          .card-image
+            %img{src: image_path('project-whisper.jpg')}
+            %a.btn-floating.halfway-fab.purple.darken-2.waves-effect{href: '/projects/whisper'}
+              %i.material-icons arrow_forward
+          .card-content
+            %span.card-title Project Whisper
+            %p Project Whisper seeks to understand what creators are talking about online and their relevance to certain topics.
+            %br
+            %p
+              %b Task:
+              Categorize content into a list of sub-topics.
+      .col.s4
+        .card
+          .card-image
+            %img{src: image_path('project-romeo.jpg')}
+            %a.btn-floating.halfway-fab.purple.darken-2.waves-effect.disabled{href: '/tweets'}
+              %i.material-icons arrow_forward
+          .card-content
+            %span.card-title Project Romeo (InDev)
+            %p Project Romeo seeks to determine how an influencer is communicating with their audience by figuring out the tone they use.
+            %br
+            %p
+              %b Task:
+              Determine the tone of a piece of content.
