@@ -2,4 +2,7 @@
 begin
   load File.expand_path('../spring', __FILE__)
 rescue LoadError => e
-  raise unless e.me
+  raise unless e.message.include?('spring')
+end
+APP_PATH = File.expand_path('../config/application', __dir__)
+require_rel
