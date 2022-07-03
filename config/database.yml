@@ -16,3 +16,9 @@ development:
   database: categorizer_dev
 
 test:
+  <<: *default
+  database: categorizer_test
+
+production:
+  <<: *default
+  url: <%= ENV['POSTGRESQL_URL'] %>
