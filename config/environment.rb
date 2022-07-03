@@ -2,4 +2,4 @@
 require_relative 'application'
 
 # Initialize the Rails application.
-Rails.app
+Rails.application.initialize!
