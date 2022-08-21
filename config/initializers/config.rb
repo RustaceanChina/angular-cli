@@ -6,4 +6,8 @@ Config.setup do |config|
   #
   # config.knockout_prefix = nil
 
-  # Overwrite arrays found in previously loaded
+  # Overwrite arrays found in previously loaded settings file. When set to `false`, arrays will be merged.
+  #
+  # config.overwrite_arrays = true
+
+  # Load environ
