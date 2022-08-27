@@ -18,4 +18,4 @@ Config.setup do |config|
   #
   # config.env_prefix = 'Settings'
 
-  # W
+  # What string to use as level separator for settings loaded from ENV variables. Default value of '.' works well
