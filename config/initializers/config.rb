@@ -26,4 +26,10 @@ Config.setup do |config|
 
   # Ability to process variables names:
   #   * nil  - no change
-  #   * :downcase - convert to lower c
+  #   * :downcase - convert to lower case
+  #
+  # config.env_converter = :downcase
+
+  # Parse numeric values as integers instead of strings.
+  #
+  # 
