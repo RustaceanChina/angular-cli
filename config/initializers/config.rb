@@ -22,4 +22,8 @@ Config.setup do |config|
   # with Heroku, but you might want to change it for example for '__' to easy override settings from command line, where
   # using dots in variable names might not be allowed (eg. Bash).
   #
-  # config.env_separ
+  # config.env_separator = '.'
+
+  # Ability to process variables names:
+  #   * nil  - no change
+  #   * :downcase - convert to lower c
