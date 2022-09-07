@@ -5,4 +5,6 @@
 # Read the Guide for Upgrading Ruby on Rails for more info on each option.
 
 # Enable per-form CSRF tokens. Previous versions had false.
-Rai
+Rails.application.config.action_controller.per_form_csrf_tokens = true
+
+# Enable origin-checking CSRF mitigation. Previous 
