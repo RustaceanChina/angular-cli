@@ -1,0 +1,2 @@
+twitter_api_key: <%= ENV["TWITTER_API_KEY"] %>
+twitter_api_secret: <%
