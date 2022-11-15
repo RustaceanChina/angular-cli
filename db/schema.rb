@@ -15,4 +15,8 @@ ActiveRecord::Schema.define(version: 20170128223205) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "tweets"
+  create_table "tweets", force: :cascade do |t|
+    t.string   "tweet_id"
+    t.text     "text"
+    t.string   "category_slug"
+    t.datetime "created
