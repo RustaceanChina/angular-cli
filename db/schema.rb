@@ -19,4 +19,7 @@ ActiveRecord::Schema.define(version: 20170128223205) do
     t.string   "tweet_id"
     t.text     "text"
     t.string   "category_slug"
-    t.datetime "created
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+    t.boolean  "in_use"
+    t.boolean  "igno
