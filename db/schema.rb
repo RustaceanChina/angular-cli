@@ -22,4 +22,5 @@ ActiveRecord::Schema.define(version: 20170128223205) do
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
     t.boolean  "in_use"
-    t.boolean  "igno
+    t.boolean  "ignored"
+    t.index ["category_slug", "ignored", "in_use"], name: "index_tweets_on_category_slug_and_ignored_and_in
