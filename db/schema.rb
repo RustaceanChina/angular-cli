@@ -30,4 +30,8 @@ ActiveRecord::Schema.define(version: 20170128223205) do
   create_table "users", force: :cascade do |t|
     t.string   "uid"
     t.string   "provider"
-    t.text     
+    t.text     "name"
+    t.string   "token"
+    t.string   "secret"
+    t.datetime "created_at", null: false
+    t.datetime "updated
