@@ -23,4 +23,6 @@ ActiveRecord::Schema.define(version: 20170128223205) do
     t.datetime "updated_at",    null: false
     t.boolean  "in_use"
     t.boolean  "ignored"
-    t.index ["category_slug", "ignored", "in_use"], name: "index_tweets_on_category_slug_and_ignored_and_in
+    t.index ["category_slug", "ignored", "in_use"], name: "index_tweets_on_category_slug_and_ignored_and_in_use", using: :btree
+    t.index ["tweet_id"], name: "index_tweets_on_tweet_id", unique: true, using: :btree
+  
