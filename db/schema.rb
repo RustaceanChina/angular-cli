@@ -25,4 +25,9 @@ ActiveRecord::Schema.define(version: 20170128223205) do
     t.boolean  "ignored"
     t.index ["category_slug", "ignored", "in_use"], name: "index_tweets_on_category_slug_and_ignored_and_in_use", using: :btree
     t.index ["tweet_id"], name: "index_tweets_on_tweet_id", unique: true, using: :btree
-  
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string   "uid"
+    t.string   "provider"
+    t.text     
