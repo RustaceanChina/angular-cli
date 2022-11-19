@@ -34,4 +34,6 @@ ActiveRecord::Schema.define(version: 20170128223205) do
     t.string   "token"
     t.string   "secret"
     t.datetime "created_at", null: false
-    t.datetime "updated
+    t.datetime "updated_at", null: false
+    t.index ["provider", "uid"], name: "index_users_on_provider_and_uid", unique: true, using: :btree
+  e
