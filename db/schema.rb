@@ -36,4 +36,6 @@ ActiveRecord::Schema.define(version: 20170128223205) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["provider", "uid"], name: "index_users_on_provider_and_uid", unique: true, using: :btree
-  e
+  end
+
+end
