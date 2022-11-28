@@ -194,3 +194,118 @@ class Category
         {name: 'Video & Computer Games', slug: 'hobbies-videogames'},
         {name: 'Woodworking', slug: 'hobbies-woodworking'},
         {name: 'Writing', slug: 'hobbies-writing'}
+      ]
+    },
+    home: {
+      name: "Home & Garden",
+      slug: "home",
+      color: 'green',
+      subcategories: [
+        {name: 'Appliances', slug: 'home-appliances'},
+        {name: 'Cleaning', slug: 'home-cleaning'},
+        {name: 'Environmental Safety', slug: 'home-ecosafety'},
+        {name: 'Gardening', slug: 'home-gardening'},
+        {name: 'Home Repair', slug: 'home-homerepair'},
+        {name: 'Home Theater', slug: 'home-hometheater'},
+        {name: 'Interior Decorating', slug: 'home-interiordecorating'},
+        {name: 'Remodeling & Construction', slug: 'home-remodeling'}
+      ]
+    },
+    government: {
+      name: "Law & Government",
+      slug: "government",
+      color: 'light-green',
+      subcategories: [
+        {name: 'Immigration', slug: 'government-immigration'},
+        {name: 'Legal Issues', slug: 'government-legalissues'},
+        {name: 'Government Resources', slug: 'government-govresources'}
+      ]
+    },
+    lifestyle: {
+      name: "Lifestyle",
+      slug: "lifestyle",
+      color: 'lime',
+      subcategories: [
+        {name: 'Dating', slug: 'lifestyle-dating'},
+        {name: 'Divorce', slug: 'lifestyle-divorce'},
+        {name: 'Gay Life', slug: 'lifestyle-gay'},
+        {name: 'Holidays', slug: 'lifestyle-holidays'},
+        {name: 'Marriage', slug: 'lifestyle-marriage'},
+        {name: 'Senior Living', slug: 'lifestyle-seniorliving'},
+        {name: 'Teens', slug: 'lifestyle-teen'},
+        {name: 'Weddings', slug: 'lifestyle-wedding'}
+      ]
+    },
+    music: {
+      name: "Music",
+      slug: "music",
+      color: 'yellow',
+      subcategories: [
+        {name: 'Alternative Rock', slug: 'music-altrockmusic'},
+        {name: 'Blues', slug: 'music-bluesmusic'},
+        {name: 'Christian & Gospel Music', slug: 'music-christianmusic'},
+        {name: 'Classic Rock', slug: 'music-rockmusic'},
+        {name: 'Country Music', slug: 'music-countrymusic'},
+        {name: 'Electronic Music', slug: 'music-electronicmusic'},
+        {name: 'Hip Hop & Rap', slug: 'music-rapmusic'},
+        {name: 'Indie Music', slug: 'music-indiemusic'},
+        {name: 'Jazz', slug: 'music-jazzmusic'},
+        {name: 'Latin Music', slug: 'music-latinmusic'},
+        {name: 'Metal', slug: 'music-metalmusic'},
+        {name: 'Pop', slug: 'music-popmusic'},
+        {name: 'Progressive Rock', slug: 'music-progressiverockmusic'},
+        {name: 'R&B & Soul', slug: 'music-soulmusic'},
+        {name: 'Reggae', slug: 'music-reggaemusic'},
+        {name: 'World Music', slug: 'music-worldmusic'}
+      ]
+    },
+    news: {
+      name: "News",
+      slug: "news",
+      color: 'amber',
+      subcategories: [
+        {name: 'Tabloids', slug: 'news-tabloids'},
+        {name: 'International News', slug: 'news-intnews'},
+        {name: 'Local News', slug: 'news-locnews'},
+        {name: 'National News', slug: 'news-natnews'}
+      ]
+    },
+    finance: {
+      name: "Personal Finance",
+      slug: "finance",
+      color: 'orange',
+      subcategories: [
+        {name: 'Credit, Debt, & Loans', slug: 'finance-credit'},
+        {name: 'Financial News', slug: 'finance-finnews'},
+        {name: 'Financial Planning', slug: 'finance-finplanning'},
+        {name: 'Hedge Fund', slug: 'finance-hedgefund'},
+        {name: 'Insurance', slug: 'finance-insurance'},
+        {name: 'Investing', slug: 'finance-investing'},
+        {name: 'Mutual Funds', slug: 'finance-mutualfunds'},
+        {name: 'Options', slug: 'finance-options'},
+        {name: 'Retirement Planning', slug: 'finance-retirement'},
+        {name: 'Stocks', slug: 'finance-stocks'},
+        {name: 'Tax Planning', slug: 'finance-taxes'}
+      ]
+    },
+    pets: {
+      name: "Animals/Pets",
+      slug: "pets",
+      color: 'deep-orange',
+      subcategories: [
+        {name: 'Aquatic Life', slug: 'pets-aquaticlife'},
+        {name: 'Birds', slug: 'pets-birds'},
+        {name: 'Cats', slug: 'pets-cats'},
+        {name: 'Dogs', slug: 'pets-dogs'},
+        {name: 'Reptiles', slug: 'pets-reptiles'},
+        {name: 'Veterinary Medicine', slug: 'pets-veterinarian'}
+      ]
+    },
+    politics: {
+      name: "Politics",
+      slug: "politics",
+      color: 'brown',
+      subcategories: [
+        {name: 'Democrat', slug: 'politics-democrat'},
+        {name: 'Environmental Issues', slug: 'politics-ecoissue'},
+        {name: 'Free Market Issues', slug: 'politics-freemarket'},
