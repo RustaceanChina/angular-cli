@@ -433,3 +433,26 @@ class Category
         {name: 'Cameras', slug: 'technology-cameras'},
         {name: 'Cellphones', slug: 'technology-phones'},
         {name: 'Computers', slug: 'technology-computers'},
+        {name: 'Tablets', slug: 'technology-tablets'},
+        {name: 'Tech Security', slug: 'technology-itsecurity'}
+      ]
+    },
+    travel: {
+      name: "Travel",
+      slug: "travel",
+      color: 'grey darken-4',
+      subcategories: [
+        {name: 'Adventure Travel', slug: 'travel-traveladventure'},
+        {name: 'Air Travel', slug: 'travel-travelair'},
+        {name: 'Business Travel', slug: 'travel-travelbusiness'},
+        {name: 'Camping', slug: 'travel-camping'},
+        {name: 'Cruises', slug: 'travel-cruises'},
+        {name: 'Hotels', slug: 'travel-hotels'},
+        {name: 'Leisure Travel', slug: 'travel-travelleisure'},
+        {name: 'National Parks', slug: 'travel-nationalparks'},
+        {name: 'Spas', slug: 'travel-spas'},
+        {name: 'Theme Parks', slug: 'travel-themeparks'}
+      ]
+    }
+  }
+end
