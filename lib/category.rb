@@ -309,3 +309,127 @@ class Category
         {name: 'Democrat', slug: 'politics-democrat'},
         {name: 'Environmental Issues', slug: 'politics-ecoissue'},
         {name: 'Free Market Issues', slug: 'politics-freemarket'},
+        {name: 'Republican', slug: 'politics-republican'}
+      ]
+    },
+    property: {
+      name: "Real Estate",
+      slug: "property",
+      color: 'grey',
+      subcategories: [
+        {name: 'Apartments', slug: 'realestate-apartments'},
+        {name: 'Homes', slug: 'realestate-homeschooling'},
+        {name: 'Timeshares', slug: 'realestate-timeshares'}
+      ]
+    },
+    religion: {
+      name: "Religion & Spirituality",
+      slug: "religion",
+      color: 'blue-grey',
+      subcategories: [
+        {name: 'Alternative Religions', slug: 'religion-altreligion'},
+        {name: 'Atheism & Agnosticism', slug: 'religion-atheism'},
+        {name: 'Buddhism', slug: 'religion-buddhism'},
+        {name: 'Catholicism', slug: 'religion-catholicism'},
+        {name: 'Christianity', slug: 'religion-christianity'},
+        {name: 'Hinduism', slug: 'religion-hinduism'},
+        {name: 'Islam', slug: 'religion-islam'},
+        {name: 'Judaism', slug: 'religion-judaism'},
+        {name: 'Latter Day Saints', slug: 'religion-mormon'},
+        {name: 'Pagan', slug: 'religion-pagan'},
+        {name: 'General Spirituality', slug: 'religion-spirituality'}
+      ]
+    },
+    science: {
+      name: "Science",
+      slug: "science",
+      color: 'green darken-4',
+      subcategories: [
+        {name: 'Astronomy', slug: 'science-astronomy'},
+        {name: 'Biology', slug: 'science-biology'},
+        {name: 'Chemistry', slug: 'science-chemistry'},
+        {name: 'Geography', slug: 'science-geography'},
+        {name: 'Geology', slug: 'science-geology'},
+        {name: 'Paranormal', slug: 'science-paranormal'},
+        {name: 'Physics', slug: 'science-physics'}
+      ]
+    },
+    shopping: {
+      name: "Shopping",
+      slug: "shopping",
+      color: 'light-blue darken-4',
+      subcategories: [
+        {name: 'Apps', slug: 'shopping-apps'},
+        {name: 'Contests', slug: 'shopping-contests'},
+        {name: 'E-Commerce', slug: 'shopping-ecom'},
+        {name: 'Retail', slug: 'shopping-retail'},
+        {name: 'Sales', slug: 'shopping-sales'}
+      ]
+    },
+    sports: {
+      name: "Sports",
+      slug: "sports",
+      color: 'red darken-4',
+      subcategories: [
+        {name: 'Auto Racing', slug: 'sports-racing'},
+        {name: 'Baseball', slug: 'sports-baseball'},
+        {name: 'Basketball', slug: 'sports-basketball'},
+        {name: 'Bicycling', slug: 'sports-bicycling'},
+        {name: 'Bodybuilding', slug: 'sports-bodybuilding'},
+        {name: 'Boxing', slug: 'sports-boxing'},
+        {name: 'Canoeing', slug: 'sports-canoeing'},
+        {name: 'Cheerleading', slug: 'sports-cheerleading'},
+        {name: 'Climbing', slug: 'sports-climbing'},
+        {name: 'Cricket', slug: 'sports-cricket'},
+        {name: 'Figure Skating', slug: 'sports-figureskating'},
+        {name: 'Fishing', slug: 'sports-fishing'},
+        {name: 'Football', slug: 'sports-football'},
+        {name: 'Golf', slug: 'sports-golf'},
+        {name: 'Horse Racing', slug: 'sports-horseracing'},
+        {name: 'Inline Skating', slug: 'sports-skating'},
+        {name: 'Martial Arts', slug: 'sports-martialarts'},
+        {name: 'Mountain Biking', slug: 'sports-mountainbiking'},
+        {name: 'Olympics', slug: 'sports-olympics'},
+        {name: 'Paintball', slug: 'sports-paintball'},
+        {name: 'Ice Hockey', slug: 'sports-hockey'},
+        {name: 'Rodeo', slug: 'sports-rodeo'},
+        {name: 'Rugby', slug: 'sports-rugby'},
+        {name: 'Running', slug: 'sports-running'},
+        {name: 'Sailing', slug: 'sports-sailing'},
+        {name: 'Scuba Diving', slug: 'sports-scuba'},
+        {name: 'Skateboarding', slug: 'sports-skateboarding'},
+        {name: 'Skiing', slug: 'sports-skiing'},
+        {name: 'Shooting', slug: 'sports-shooting'},
+        {name: 'Snowboarding', slug: 'sports-snowboarding'},
+        {name: 'Soccer', slug: 'sports-soccer'},
+        {name: 'Surfing', slug: 'sports-surfing'},
+        {name: 'Swimming', slug: 'sports-swimming'},
+        {name: 'Table Tennis', slug: 'sports-tabletennis'},
+        {name: 'Tennis', slug: 'sports-tennis'},
+        {name: 'Volleyball', slug: 'sports-volleyball'},
+        {name: 'Watersports', slug: 'sports-watersports'}
+      ]
+    },
+    fashion: {
+      name: "Style & Fashion",
+      slug: "fashion",
+      color: 'pink darken-4',
+      subcategories: [
+        {name: 'Accessories', slug: 'fashion-accessories'},
+        {name: 'Beauty', slug: 'fashion-beauty'},
+        {name: 'Body Art', slug: 'fashion-bodyart'},
+        {name: 'Clothing', slug: 'fashion-clothing'},
+        {name: 'Fashion', slug: 'fashion-fashion'},
+        {name: 'Hair Styling', slug: 'fashion-hair'},
+        {name: 'Jewelry', slug: 'fashion-jewelry'}
+      ]
+    },
+    tech: {
+      name: "Technology",
+      slug: "tech",
+      color: 'cyan accent-3',
+      subcategories: [
+        {name: 'Animation', slug: 'technology-animation'},
+        {name: 'Cameras', slug: 'technology-cameras'},
+        {name: 'Cellphones', slug: 'technology-phones'},
+        {name: 'Computers', slug: 'technology-computers'},
