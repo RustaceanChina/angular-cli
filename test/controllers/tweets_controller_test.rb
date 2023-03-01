@@ -45,3 +45,5 @@ class TweetsControllerTest < ActionDispatch::IntegrationTest
     end
 
     assert_redirected_to tweets_url
+  end
+end
